@@ -12,5 +12,12 @@ public class Solution {
     // 4.将上一步的结果除以4
     // 5.将上一步的结果对5取余
     // 将得到的结果返回
-    public static int calculate(int number) {}
+    public static int calculate(int number) {
+        int res1 = number + 1;
+        int res2 = res1 * 2;
+        int res3 = res2 - 3;
+        int res4 = res3 / 4;
+        int res5 = res4 % 5;
+        return res5;
+    }
 }
