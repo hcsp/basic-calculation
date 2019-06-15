@@ -1,13 +1,12 @@
 package com.github.hcsp.calculation;
 
-import static org.junit.jupiter.api.Assertions.assertEquals;
-
+import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
-class SolutionTest {
+public class SolutionTest {
     @Test
     public void test() {
-        assertEquals(4, Solution.calculate(200));
-        assertEquals(0, Solution.calculate(42));
+        Assertions.assertEquals(4, Solution.calculate(200));
+        Assertions.assertEquals(0, Solution.calculate(42));
     }
 }
