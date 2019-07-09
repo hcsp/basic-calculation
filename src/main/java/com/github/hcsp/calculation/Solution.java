@@ -1,7 +1,5 @@
 package com.github.hcsp.calculation;
 
-import java.nio.BufferUnderflowException;
-
 public class Solution {
     public static void main(String[] args) {
         // 结果应该是4
@@ -14,12 +12,5 @@ public class Solution {
     // 4.将上一步的结果除以4
     // 5.将上一步的结果对5取余
     // 将得到的结果返回
-    public static int calculate(int number) {
-        number += 1;
-        number *= 2;
-        number -= 3;
-        number /= 4;
-        number %= 5;
-        return number;
-    }
+    public static int calculate(int number) {}
 }
