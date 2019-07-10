@@ -1,7 +1,5 @@
 package com.github.hcsp.calculation;
 
-import java.nio.BufferUnderflowException;
-
 public class Solution {
     public static void main(String[] args) {
         // 结果应该是4
