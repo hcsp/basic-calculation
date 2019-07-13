@@ -1,6 +1,6 @@
 # Java的运算系统练习：进行基础运算
 
-请在[`Solution`类](https://github.com/hcsp/basic-calculation/blob/master/src//java/com/github/hcsp/calculation/Solution.java)中按照要求编写一个方法。
+请在[`Solution`类](https://github.com/hcsp/basic-calculation/blob/master/src/main/java/com/github/hcsp/calculation/Solution.java)中按照要求编写一个方法。
 
 在提交Pull Request之前，你应当在本地确保所有代码已经编译通过，并且通过了测试(`mvn clean test`)
 
