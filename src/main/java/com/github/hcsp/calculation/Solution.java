@@ -1,4 +1,4 @@
-﻿package com.github.hcsp.calculation;
+package com.github.hcsp.calculation;
 
 public class Solution {
     public static void main(String[] args) {
