@@ -16,7 +16,7 @@ public class Solution {
         number += 1;
         number *= 2;
         number -= 3;
-        number /= 3;
-        return number % 3;
+        number /= 4;
+        return number % 5;
     }
 }
