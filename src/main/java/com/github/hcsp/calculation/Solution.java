@@ -12,7 +12,7 @@ public class Solution {
     // 5.将上一步的结果对5取余
     // 将得到的结果返回
     public static int calculate(int number) {
-        int i = 100;
+        int i =number;
         i = i + 1;
         i = i - 3;
         i = i / 4;
