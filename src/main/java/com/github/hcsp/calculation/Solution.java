@@ -14,10 +14,10 @@ public class Solution {
     // 将得到的结果返回
     public static int calculate(int number) {
         int t = number + 1;
-        int t1 = t * 2;
-        int t2 = t1 - 3;
-        double t3 = (double) t2 / 4;
-        Double t5 = t3 % 5;
-        return t5.intValue();
+        t *= 2;
+        t -= 3;
+        t /= 4;
+        t %= 5;
+        return t;
     }
 }
