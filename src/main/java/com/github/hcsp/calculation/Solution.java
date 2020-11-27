@@ -13,11 +13,12 @@ public class Solution {
     // 5.将上一步的结果对5取余
     // 将得到的结果返回
     public static int calculate(int number) {
-        number += 1;
-        number *= 2;
-        number -= 3;
-        number /= 4;
-        number %= 5;
-        return number;
+        int i;
+        i = number + 1;
+        i *= 2;
+        i -= 3;
+        i /= 4;
+        i %= 5;
+        return i;
     }
 }
