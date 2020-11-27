@@ -14,11 +14,17 @@ public class Solution {
     // 将得到的结果返回
     public static int calculate(int number) {
         int i;
+
         i = number + 1;
+
         i *= 2;
+
         i -= 3;
+
         i /= 4;
+
         i %= 5;
+
         return i;
     }
 }
