@@ -1,7 +1,7 @@
 package com.github.hcsp.calculation;
 
-public class Solution {
-    public static void main(String[] args) {
+public class Solution {                                  //class
+    public static void main(String[] args) {               //程序开始
         // 结果应该是4
         System.out.println(calculate(100));
     }
@@ -12,5 +12,8 @@ public class Solution {
     // 4.将上一步的结果除以4
     // 5.将上一步的结果对5取余
     // 将得到的结果返回
-    public static int calculate(int number) {}
+    public static int calculate(int number) {
+        int a =(((((number + 1)*2)-3)/4)%5);
+        return a;
+    }
 }
